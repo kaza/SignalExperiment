@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat", "SimpleChat\SimpleChat.csproj", "{BD794047-97D3-42DA-82FB-DAC7C38AB00A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerNotify", "ServerNotify\ServerNotify.csproj", "{BE9B409F-1E61-453D-8B2E-D332A2629B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BD794047-97D3-42DA-82FB-DAC7C38AB00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD794047-97D3-42DA-82FB-DAC7C38AB00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD794047-97D3-42DA-82FB-DAC7C38AB00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9B409F-1E61-453D-8B2E-D332A2629B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9B409F-1E61-453D-8B2E-D332A2629B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9B409F-1E61-453D-8B2E-D332A2629B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9B409F-1E61-453D-8B2E-D332A2629B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
