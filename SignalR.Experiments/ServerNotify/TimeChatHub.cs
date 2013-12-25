@@ -48,7 +48,7 @@ namespace ServerNotify
 
         public void StartTicker()
         {
-            _updateInterval = TimeSpan.FromMilliseconds(250);
+            _updateInterval = TimeSpan.FromMilliseconds(5000);
             _timer = new Timer(TickChat, null, _updateInterval, _updateInterval);
         }
 
