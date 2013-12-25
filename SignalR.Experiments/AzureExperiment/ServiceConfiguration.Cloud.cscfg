@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureExperiment" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2012-10.1.8">
+  <Role name="ServerNotify">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=abalobackup;AccountKey=H4n13nMAc/9a6gRkx/Eg3wFglWkePeVF5/nPI34qXTFSBgwPgcvJXwc+mEo+hUSK0blyap1kFi/PfUOzvAnQVA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="abalo" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFnx5/8MRMW0Rv3kd/Boom4wDQYJKoZIhvcNAQEBBQAEggEAx+PY/dfoQcJ+I4CeKKCU6Bv/t6ndV62AVasBFf/LMbne5z00cVBXulhAq5NqAE39744ZNpGOY1cwxtI+p0DgHxcxkN03bKno7B5bUmNjf7HDhBchmb+FtAh0caeETnM4Wym7nZP2FZTfm8EVtTrgT1L3WDg9EmTbLJATVtIwmsYW3DJ/qjvBTqI8NqR43QszPW6ic5Eys2mlFOJuVLhrrXdJNdrhd3JkFTPRORRI7BBYrKW1uupJACpDWVam0iJ7jWf+SGsSFrtBsPNJdnFxE9HT5WPa5VT6OrMo41vHAnGiYn/i2wqik1RTKhKH3XUwL1fMH0QRL/aQ3Qm9qnvSFzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECB2YfxRT6rWlgBDSJjxfaL7fwM9w1Q9ehvwJ" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2015-01-09T23:59:59.0000000+01:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="F1393A67A77B71BC9378CD1A1A427DAC5F94CA9F" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
